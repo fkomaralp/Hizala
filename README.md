@@ -6,10 +6,17 @@
 
 ## Ayarlar | Settings ##
 
-[TR]Sadece aşağıdaki satırı eklemeniz yeterli.
+[TR]
+Sadece aşağıdaki satırı eklemeniz yeterli.
+[Masaüstü versiyon için tıklayın] (http://www.gayretsoft.com/products.php?p=viewproduct&id=2)
+C# ile yazılmıştır.
+
+[EN]
+Just insert html javascript include line.
+[Click for the desktop version] (http://www.gayretsoft.com/products.php?p=viewproduct&id=2)
+Writen with C#
 
 
-[EN]Just insert html javascript include line.
 
 
 ```html
