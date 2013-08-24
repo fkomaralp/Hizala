@@ -18,7 +18,7 @@
 
 ### Versiyon | Version ###
  
- 1.0 + Bugün, hızlıca çıkmış bir uygulamadır. Açıkların olması muhtemeldir.
+ 1.0 + Bugün, hızlıca çıkmış bir uygulamadır. Açıkların/düzensizliklerin olması muhtemeldir.
 
 ### Lisans | License ###
 
