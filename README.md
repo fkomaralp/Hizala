@@ -1,33 +1,22 @@
 # Hizala #
 
-[TR]Gerçek zamanlı hiza kontrol uygulaması.
+Real-Time alignment control application.
 
-[EN]Real-Time alignment control application.
-
-## Ayarlar | Settings ##
-
-[TR]
-Sadece aşağıdaki satırı eklemeniz yeterli.
-[Masaüstü versiyon için tıklayın] (http://www.gayretsoft.com/products.php?p=viewproduct&id=2)
-C# ile yazılmıştır.
-
-[EN]
+## Settings ##
 Just insert html javascript include line.
 [Click for the desktop version] (http://www.gayretsoft.com/products.php?p=viewproduct&id=2)
 Writen with C#
-
-
 
 
 ```html
 <script type="text/javascript" src="foo/bar/hizala.js?1.0"></script>
 ```
 
-### Versiyon | Version ###
+### Version ###
  
- 1.0 + Bugün, hızlıca çıkmış bir uygulamadır. Açıkların/düzensizliklerin olması muhtemeldir.
+ 1.1
 
-### Lisans | License ###
+### License ###
 
 The MIT License (MIT)
 
