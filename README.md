@@ -3,7 +3,7 @@
 Real-Time alignment control application.
 
 ## Settings ##
-Just insert html javascript include line.
+Just insert following html code block to in your head tag blocks.
 [Click for the desktop version] (http://www.gayretsoft.com/products.php?p=viewproduct&id=2)
 Writen with C#
 
