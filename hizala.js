@@ -5,11 +5,12 @@
  * is licensed under the MIT license.
  * http://opensource.org/licenses/MIT or LICENSE.txt
  * 
- * Gerçek zamanlı hiza kontrol uygulaması.
+ * Realtime alignment control application for web.
  * 
  * Author : Fatih Komaralp 
- * Version : 1.0
- * Date : 24 Aug 2013, 18:33:08
+ * Release Log :
+ * - 1.0 @24 Aug 2013, 18:33:08
+ * - 1.1 @31 Aug 2013, 15:27:48
  */
 
 (function($){
@@ -24,7 +25,7 @@
                         '#hizala-container .h-s-container {width:200px;height:100px;margin:-25px 0px 0px -200px;background-color:rgb(113, 171, 235);color:#fff}' +
                         '#hizala-container .h-s-container > div {width:80px;height:25px;border:1px solid rgb(235, 235, 235);display:block;float:left;text-align:center;line-height:25px;cursor:pointer;}' +
                         '#hizala-container .h-s-container .h-s-createnewx,#hizala-container .h-s-container .h-s-createnewy, #hizala-container .h-s-container .btn-delete-all {background-color:rgb(100, 167, 213);margin:8px}' +
-                        '#hizala-container .h-s-container .btn-delete-all {background-color:rgb(247, 119, 95);margin:10px 0px 0px 53px;padding:3px}' +
+                        '#hizala-container .h-s-container .btn-delete-all {background-color:rgb(247, 119, 95);margin:10px 0px 0px 53px;}' +
                   '</style>';
           
     // Globals for temp elements
@@ -63,7 +64,8 @@
                 "width" : "3px", 
                 "height" : "100%", 
                 "background-color" : "#000", 
-                "cursor" : "e-resize"});
+                "cursor" : "e-resize",
+                "z-index" : "2147483"});
             
             // mousedown Event for the capture current div element
             $('body .hizala-x-line').bind('mousedown', function(){
@@ -90,7 +92,14 @@
 
                 $('body').append('<div class="hizala-y-line ' + unique_id +'"></div>');
                 
-                $('.' + unique_id).css({"top":"50px","left":"0" , "position" : "absolute", "width" : "100%", "height" : "3px", "background-color" : "#000", "cursor" : "n-resize"});
+                $('.' + unique_id).css({"top":"50px",
+                    "left":"0" , 
+                    "position" : "absolute", 
+                    "width" : "100%", 
+                    "height" : "3px", 
+                    "background-color" : "#000", 
+                    "cursor" : "n-resize", 
+                    "z-index" : "2147483"});
 
                 $('body .hizala-y-line').bind('mousedown', function(){
 
