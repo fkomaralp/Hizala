@@ -13,8 +13,10 @@ Writen with C#
 ```
 
 ### Version ###
- 
- 1.1
+* - 1.0 @24 Aug 2013, 18:33:08 - first
+* - 1.1 @31 Aug 2013, 15:27:48
+*   + Added z-index property to x-y line,
+*   + Fixed "Delete All" button padding property
 
 ### License ###
 
