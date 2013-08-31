@@ -9,14 +9,14 @@
  * 
  * Author : Fatih Komaralp 
  * Release Log :
- * - 1.0 @24 Aug 2013, 18:33:08
+ * - 1.0 @24 Aug 2013, 18:33:08 - first
  * - 1.1 @31 Aug 2013, 15:27:48
  */
 
 (function($){
     
     // Make Hizala(aka Aligment) window
-    var htmlBody = '<div id="hizala-container"><div class="h-sorh-btn" data-action="hide">>></div><div class="h-s-container"><div class="h-s-createnewx" title="New X Line">Yeni Dikey</div><div class="h-s-createnewy" title="New Y Line">Yeni Yatay</div><div class="btn-delete-all" title="Delete All">Tümünü Sil</div></div></div>';
+    var htmlBody = '<div id="hizala-container"><div class="h-sorh-btn" data-action="hide">>></div><div class="h-s-container"><div class="h-s-createnewx" title="New X Line">New X Line</div><div class="h-s-createnewy" title="New Y Line">New Y Line</div><div class="btn-delete-all" title="Delete All">Delete All</div></div></div>';
     
     // Set window styles       
     var cssBody = '<style type=\'text/css\'>' +
