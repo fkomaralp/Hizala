@@ -12,6 +12,8 @@ Writen with C#
 <script type="text/javascript" src="foo/bar/hizala.js?1.0"></script>
 ```
 
+After then include this line `$().hizala();` to your javascript block.
+
 ### Version ###
 * - 1.0 @24 Aug 2013, 18:33:08 - first
 * 
