@@ -9,18 +9,19 @@
  * 
  * Author : Fatih Komaralp 
  * Release Log :
- * - 1.0 @24 Aug 2013, 18:33:08 - first
- * - 1.1 @31 Aug 2013, 15:27:48
+ * - 1.0 @2013-08-24T18:33:08+03:00
+ * - 1.1 2013-08-31T15:27:48+03:00
+ * - 1.2 @2013-09-03T15:10:54+03:00
  */
 
 (function($){
     
     // Make Hizala(aka Aligment) window
-    var htmlBody = '<div id="hizala-container"><div class="h-sorh-btn" data-action="hide">>></div><div class="h-s-container"><div class="h-s-createnewx" title="New X Line">New X Line</div><div class="h-s-createnewy" title="New Y Line">New Y Line</div><div class="btn-delete-all" title="Delete All">Delete All</div></div></div>';
+    var htmlBody = '<div id="hizala-container"><div class="h-sorh-btn" data-action="hide">>></div><div class="h-s-container"><div class="h-s-createnewx" title="New X Line">Yeni Dikey</div><div class="h-s-createnewy" title="New Y Line">Yeni Yatay</div><div class="btn-delete-all" title="Delete All">Tümünü Sil</div></div></div>';
     
     // Set window styles       
     var cssBody = '<style type=\'text/css\'>' +
-                        '#hizala-container {position:absolute;display:block;top:100px;left:0px;z-index:55555;}' + 
+                        '#hizala-container {position:fixed;display:block;top:100px;left:0px;z-index:55555;}' + 
                         '#hizala-container .h-sorh-btn {width:40px;height:25px;background-color:rgb(100, 167, 213);color:#fff;line-height:25px;text-align:center;border-radius:0 20px 20px 0px;cursor:pointer}' +
                         '#hizala-container .h-s-container {width:200px;height:100px;margin:-25px 0px 0px -200px;background-color:rgb(113, 171, 235);color:#fff}' +
                         '#hizala-container .h-s-container > div {width:80px;height:25px;border:1px solid rgb(235, 235, 235);display:block;float:left;text-align:center;line-height:25px;cursor:pointer;}' +
@@ -50,7 +51,6 @@
         },
                 
         newxline : function(){
-            
             // Random a new unique key for no conflict
             var unique_id = Math.floor(Math.random()*99999999);
             
@@ -60,7 +60,7 @@
             // And then, set style of this "x" line
             $('.' + unique_id).css({"top":"0",
                 "left":"50px" , 
-                "position" : "absolute", 
+                "position" : "fixed", 
                 "width" : "3px", 
                 "height" : "100%", 
                 "background-color" : "#000", 
