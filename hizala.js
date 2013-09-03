@@ -94,7 +94,7 @@
                 
                 $('.' + unique_id).css({"top":"50px",
                     "left":"0" , 
-                    "position" : "absolute", 
+                    "position" : "fixed", 
                     "width" : "100%", 
                     "height" : "3px", 
                     "background-color" : "#000", 
