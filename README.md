@@ -23,7 +23,7 @@ After then include this line `$().hizala();` to your javascript block.
 *   
 * - 1.2 @2013-09-03T15:10:54+03:00
 *   + #hizala-container element style position (position:absolute) changed with to (position:fixed).
-*   + .hizala-x-line element style position (position:absolute) changed with to (position:fixed) for full height (logically).
+*   + .hizala-x-line and .hizala-y-line elements styles position (position:absolute) changed with to (position:fixed) for full height (logically).
 
 ### License ###
 
