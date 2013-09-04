@@ -29,7 +29,7 @@
                         '#hizala-container .h-s-container .btn-delete-all {background-color:rgb(247, 119, 95);margin:10px 0px 0px 53px;}' +
                   '</style>';
           
-    // Globals for temp elements
+    // Globals for temp elements 
     var globals = {
         current_selector : ""
     }
