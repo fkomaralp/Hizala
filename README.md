@@ -9,7 +9,7 @@ Writen with C# language.
 
 
 ```html
-<script type="text/javascript" src="foo/bar/hizala.js?1.0"></script>
+<script type="text/javascript" src="https://raw.github.com/gayretsoft/Hizala/master/hizala.js?v=1.2"></script>
 ```
 
 After then include this line `$().hizala();` to your javascript block.
