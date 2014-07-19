@@ -1,10 +1,6 @@
 /**
  * hizala.js
  * 
- * Copyright (c) 2013 GAYRETSOFT (http://gayretsoft.com)
- * is licensed under the MIT license.
- * http://opensource.org/licenses/MIT or LICENSE.txt
- * 
  * Realtime alignment control application for web.
  * 
  * Author : Fatih Komaralp 
