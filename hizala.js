@@ -8,7 +8,7 @@
 
 (function($){
     
-    // Make Hizala(aka Aligment) window
+    // Make Hizala window
     var htmlBody = '<div id="hizala-container"><div class="h-sorh-btn" data-action="hide">>></div><div class="h-s-container"><div class="h-s-createnewx" title="New X Line">Yeni Dikey</div><div class="h-s-createnewy" title="New Y Line">Yeni Yatay</div><div class="btn-delete-all" title="Delete All">Tümünü Sil</div></div></div>';
     
     // Set window styles       
