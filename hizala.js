@@ -4,10 +4,6 @@
  * Realtime alignment control application for web.
  * 
  * Author : Fatih Komaralp 
- * Release Log :
- * - 1.0 @2013-08-24T18:33:08+03:00
- * - 1.1 2013-08-31T15:27:48+03:00
- * - 1.2 @2013-09-03T15:10:54+03:00
  */
 
 (function($){
