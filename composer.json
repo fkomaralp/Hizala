@@ -1,0 +1,7 @@
+{
+    "name": "fkomaralp/Hizala",
+    "description": "Real-time Aligment Control plugin",
+    "require": {
+        "components/jquery": "1.9.*"
+    }
+}
